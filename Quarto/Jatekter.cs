@@ -18,8 +18,11 @@ namespace Quarto
 
         int elhagyas = 12;
         int koz = 3;
-        public Jatekter(Babuk babuk)
+
+        Babuk Babuk;
+        public Jatekter(Babuk ujbabuk)
         {
+            Babuk = ujbabuk;
             InitializeComponent();
 
             cellak = new PictureBox[4, 4];
@@ -38,13 +41,15 @@ namespace Quarto
                     cella.Tag = $"{sor}_{oszlop}_0_0000";
                 }
             }
-            this.Width = cellameret * 4 + koz * 3 + elhagyas * 4;
-            this.Height = cellameret * 4 + koz * 3 + elhagyas * 5;
+            this.ClientSize = new Size( cellameret * 4 + koz * 3 + elhagyas + 10,
+                                        cellameret * 4 + koz * 3 + elhagyas + 10);
         }
         private void cekkaKatt(object sender, EventArgs e)
         {
             PictureBox kattintott = sender as PictureBox;
 
         }
+
+        
     }
 }

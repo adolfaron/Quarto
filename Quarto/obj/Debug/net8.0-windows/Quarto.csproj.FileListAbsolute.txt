@@ -15,3 +15,21 @@ C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\refint\Qu
 C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.pdb
 C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.genruntimeconfig.cache
 C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.exe
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.deps.json
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.runtimeconfig.json
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.pdb
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Babuk.resources
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Jatekter.resources
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.GenerateResource.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfoInputs.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfo.cs
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.CoreCompileInputs.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.sourcelink.json
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\refint\Quarto.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.pdb
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.genruntimeconfig.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll
