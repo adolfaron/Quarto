@@ -14,7 +14,7 @@ namespace Quarto
     {
         Jatekter Jatekter;
         PictureBox[,] cellak;
-        int cellameret = 100;
+        int cellameret = 200;
 
         int elhagyas = 12;
         int koz = 3;
@@ -89,25 +89,25 @@ namespace Quarto
                         }
                         else
                         {
-                            kepek.Add(Image.FromFile("img/__1_.png"));
+                            kepek.Add(Image.FromFile("img/1___.png"));
                         }
                     }
-                    else
+                    else//1
                     {
                         if (szam[3] == '0')//kitöltés kör
                         {
                             kepek.Add(Image.FromFile("img/0___.png"));
                         }
-                        else
+                        else//1
                         {
-                            kepek.Add(Image.FromFile("img/1___.png"));
+                            kepek.Add(Image.FromFile("img/__1_.png"));
                             kepek.Add(Image.FromFile("img/_1__.png"));
                         }
 
                     }
                 }
             }
-            else
+            else//1
             {
                 if (szam[1] == '0')
                 {
@@ -140,7 +140,7 @@ namespace Quarto
                         }
                         else
                         {
-                            kepek.Add(Image.FromFile("img/__0_.png"));
+                            kepek.Add(Image.FromFile("img/0___.png"));
                         }
                     }
                     else
@@ -149,9 +149,9 @@ namespace Quarto
                         {
                             kepek.Add(Image.FromFile("img/1___.png"));
                         }
-                        else
+                        else//1
                         {
-                            kepek.Add(Image.FromFile("img/0___.png"));
+                            kepek.Add(Image.FromFile("img/__0_.png"));
                             kepek.Add(Image.FromFile("img/_0__.png"));
                         }
                     }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Quarto")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9853807a2b706b593f91d6add88d3cbe91365249")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+551a3162f8f860f0091f1286de0f75e03a263545")]
 [assembly: System.Reflection.AssemblyProductAttribute("Quarto")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Quarto")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

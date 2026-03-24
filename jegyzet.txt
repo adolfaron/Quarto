@@ -1,0 +1,15 @@
+kör
+üres
+kiskör
+kisnégyzet
+
+0101 fehér négyzet - fehér kör
+1101 fekete négyzet - fekete kör
+0111 fehér kör - fehér négyzet
+1111 fekete kör - fekete négyzet
+
+
+
+
+0111 fehér négyzet för lyukkal
+1111 fekete négyzet kör lyukkal
