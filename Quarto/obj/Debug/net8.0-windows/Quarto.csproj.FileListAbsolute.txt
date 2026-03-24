@@ -1,0 +1,17 @@
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Babuk.resources
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Jatekter.resources
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.GenerateResource.cache
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfoInputs.cache
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfo.cs
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.CoreCompileInputs.cache
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.exe
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.deps.json
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.runtimeconfig.json
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.dll
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.pdb
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.dll
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\refint\Quarto.dll
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.pdb
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.genruntimeconfig.cache
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll
