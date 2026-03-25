@@ -1,7 +1,7 @@
-kör
-üres
-kiskör
-kisnégyzet
+fekete/fehér alap 0
+négyzet/kör alap 1
+tömött/lyukas 2
+kör/négyzet lyuk 3
 
 0101 fehér négyzet - fehér kör
 1101 fekete négyzet - fekete kör

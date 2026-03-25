@@ -13,12 +13,13 @@ namespace Quarto
     public partial class Babuk : Form
     {
         Jatekter Jatekter;
-        PictureBox[,] cellak;
-        int cellameret = 100;
+        public PictureBox[,] cellak;
+        public int cellameret = 100;
 
         int elhagyas = 12;
         int koz = 3;
-        Image utolsoKep;
+        public Image utolsoKep;
+        public Point utolsoHely;
         public Babuk()
         {
             InitializeComponent();
@@ -131,8 +132,8 @@ namespace Quarto
                         }
                         else
                         {
-                            kepek.Add(Image.FromFile("img/1___.png"));
-                            kepek.Add(Image.FromFile("img/_0__.png"));
+                            kepek.Add(Image.FromFile("img/0___.png"));
+                            kepek.Add(Image.FromFile("img/_1__.png"));
                         }
                     }
                     else//1
@@ -143,7 +144,7 @@ namespace Quarto
                         }
                         else//1
                         {
-                            kepek.Add(Image.FromFile("img/fehér kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
                         }
 
                     }
@@ -182,8 +183,8 @@ namespace Quarto
                         }
                         else
                         {
-                            kepek.Add(Image.FromFile("img/0___.png"));
-                            kepek.Add(Image.FromFile("img/_1__.png"));
+                            kepek.Add(Image.FromFile("img/1___.png"));
+                            kepek.Add(Image.FromFile("img/_0__.png"));
 
                         }
                     }
@@ -195,7 +196,7 @@ namespace Quarto
                         }
                         else//1
                         {
-                            kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/fehér kör négyzet lyukkal.png"));
                         }
                     }
                 }
@@ -241,17 +242,18 @@ namespace Quarto
 
         private void cekkaKatt(object sender, EventArgs e)
         {
-            if (utolsoKep != null) return;
             PictureBox kattintott = sender as PictureBox;
-            //MessageBox.Show(kattintott.Tag.ToString().Split('_')[3]);
-            int sor = Convert.ToInt32( kattintott.Tag.ToString().Split('_')[0]);
+            if (utolsoKep != null || kattintott.Image == null) return;
+            MessageBox.Show(kattintott.Tag.ToString().Split('_')[3]);
+            /*int sor = Convert.ToInt32( kattintott.Tag.ToString().Split('_')[0]);
             int oszl = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[1]);
             //Jatekter.kivalaszt(kattintott);
             Jatekter.valasztott = new PictureBox();
             Jatekter.valasztott.Image = (Image)kattintott.Image.Clone();
             Jatekter.valasztott.Tag = kattintott.Tag;
             utolsoKep = kattintott.Image;
-            cellak[sor, oszl].Image = kepOsszeRak([utolsoKep, Image.FromFile("img/kijelol.png")]);
+            utolsoHely = new Point( sor, oszl);
+            cellak[sor, oszl].Image = kepOsszeRak([utolsoKep, Image.FromFile("img/kijelol.png")]);*/
 
         }
 

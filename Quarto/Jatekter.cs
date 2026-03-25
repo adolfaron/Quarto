@@ -49,12 +49,13 @@ namespace Quarto
         private void cekkaKatt(object sender, EventArgs e)
         {
             PictureBox kattintott = sender as PictureBox;
-            //if (kattintott.Image != null) return;
+            if (kattintott.Image != null || Babuk.utolsoKep == null) return;
             int sor = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[0]);
             int oszl = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[1]);
 
             cellak[sor, oszl].Image = valasztott.Image;
-
+            Babuk.cellak[Babuk.utolsoHely.X, Babuk.utolsoHely.Y].Image = null;
+            Babuk.utolsoKep = null;
         }
 
         
