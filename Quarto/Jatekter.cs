@@ -54,8 +54,73 @@ namespace Quarto
             int oszl = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[1]);
 
             cellak[sor, oszl].Image = valasztott.Image;
+            cellak[sor, oszl].Tag = valasztott.Tag;
             Babuk.cellak[Babuk.utolsoHely.X, Babuk.utolsoHely.Y].Image = null;
             Babuk.utolsoKep = null;
+
+            for (int s = 0; s  < 4; s ++)
+            {
+                for (int i = 0; i < 4; i++)
+                {
+                    if (cellak[s, 0].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[s, 1].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[s, 2].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[s, 3].Tag.ToString().Split('_')[2] == "1" &&
+
+                        cellak[s, 0].Tag.ToString().Split('_')[3][i] == cellak[s, 1].Tag.ToString().Split('_')[3][i] && 
+                        cellak[s, 1].Tag.ToString().Split('_')[3][i] == cellak[s, 2].Tag.ToString().Split('_')[3][i] &&
+                        cellak[s, 2].Tag.ToString().Split('_')[3][i] == cellak[s, 3].Tag.ToString().Split('_')[3][i])
+                    {
+                        MessageBox.Show("Kijött!");
+                        return;
+                    }
+                }
+            }
+            for (int o = 0; o < 4; o++)
+            {
+                for (int i = 0; i < 4; i++)
+                {
+                    if (cellak[0, o].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[1, o].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[2, o].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[3, o].Tag.ToString().Split('_')[2] == "1" &&
+
+                        cellak[0, o].Tag.ToString().Split('_')[3][i] == cellak[1, o].Tag.ToString().Split('_')[3][i] &&
+                        cellak[1, o].Tag.ToString().Split('_')[3][i] == cellak[2, o].Tag.ToString().Split('_')[3][i] &&
+                        cellak[2, o].Tag.ToString().Split('_')[3][i] == cellak[3, o].Tag.ToString().Split('_')[3][i])
+                    {
+                        MessageBox.Show("Kijött!");return;
+                    }
+                }
+            }
+            for (int i = 0; i < 4; i++)
+            {
+                if (cellak[0, 0].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[1, 1].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[2, 2].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[3, 3].Tag.ToString().Split('_')[2] == "1" &&
+
+                        cellak[0, 0].Tag.ToString().Split('_')[3][i] == cellak[1, 1].Tag.ToString().Split('_')[3][i] &&
+                        cellak[1, 1].Tag.ToString().Split('_')[3][i] == cellak[2, 2].Tag.ToString().Split('_')[3][i] &&
+                        cellak[2, 2].Tag.ToString().Split('_')[3][i] == cellak[3, 3].Tag.ToString().Split('_')[3][i])
+                {
+                    MessageBox.Show("Kijött!"); return;
+                }
+            }
+            for (int i = 0; i < 4; i++)
+            {
+                if (cellak[0, 3].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[1, 2].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[2, 1].Tag.ToString().Split('_')[2] == "1" &&
+                        cellak[3, 0].Tag.ToString().Split('_')[2] == "1" &&
+
+                        cellak[0, 3].Tag.ToString().Split('_')[3][i] == cellak[1, 2].Tag.ToString().Split('_')[3][i] &&
+                        cellak[1, 2].Tag.ToString().Split('_')[3][i] == cellak[2, 1].Tag.ToString().Split('_')[3][i] &&
+                        cellak[2, 1].Tag.ToString().Split('_')[3][i] == cellak[3, 0].Tag.ToString().Split('_')[3][i])
+                {
+                    MessageBox.Show("Kijött!"); return;
+                }
+            }
         }
 
         

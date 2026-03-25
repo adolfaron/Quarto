@@ -20,6 +20,7 @@ namespace Quarto
         int koz = 3;
         public Image utolsoKep;
         public Point utolsoHely;
+        Image kijottKep = Image.FromFile("img/kijelol.png");
         public Babuk()
         {
             InitializeComponent();
@@ -38,7 +39,7 @@ namespace Quarto
                     cella.Click += new(cekkaKatt);
                     cella.SizeMode = PictureBoxSizeMode.StretchImage;
                     cella.Image = kepLetrehoz(Convert.ToString(oszlop * 4 + sor, 2).PadLeft(4, '0'));
-                    cella.Tag = $"{sor}_{oszlop}_0_"+ Convert.ToString(oszlop * 4 + sor, 2).PadLeft(4, '0');
+                    cella.Tag = $"{sor}_{oszlop}_1_"+ Convert.ToString(oszlop * 4 + sor, 2).PadLeft(4, '0');
                 }
             }
             //this.Width = utolso.X + cellameret + elhagyas * 2;
@@ -244,8 +245,8 @@ namespace Quarto
         {
             PictureBox kattintott = sender as PictureBox;
             if (utolsoKep != null || kattintott.Image == null) return;
-            MessageBox.Show(kattintott.Tag.ToString().Split('_')[3]);
-            /*int sor = Convert.ToInt32( kattintott.Tag.ToString().Split('_')[0]);
+            //MessageBox.Show(kattintott.Tag.ToString().Split('_')[3]);
+            int sor = Convert.ToInt32( kattintott.Tag.ToString().Split('_')[0]);
             int oszl = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[1]);
             //Jatekter.kivalaszt(kattintott);
             Jatekter.valasztott = new PictureBox();
@@ -253,7 +254,7 @@ namespace Quarto
             Jatekter.valasztott.Tag = kattintott.Tag;
             utolsoKep = kattintott.Image;
             utolsoHely = new Point( sor, oszl);
-            cellak[sor, oszl].Image = kepOsszeRak([utolsoKep, Image.FromFile("img/kijelol.png")]);*/
+            cellak[sor, oszl].Image = kepOsszeRak([utolsoKep, kijottKep]);
 
         }
 
