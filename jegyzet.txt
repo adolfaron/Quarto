@@ -11,5 +11,9 @@ kisnégyzet
 
 
 
-0111 fehér négyzet för lyukkal
-1111 fekete négyzet kör lyukkal
+0111 fehér négyzet kör lyukkal - fehér kör négyzet lyukkal
+1111 fekete négyzet kör lyukkal - fekete kör négyzet lyukkal
+
+
+0101 fehér kör fekete négyzettel
+1101 fekete kör fehér négyzettel

@@ -14,7 +14,7 @@ namespace Quarto
     {
         Jatekter Jatekter;
         PictureBox[,] cellak;
-        int cellameret = 200;
+        int cellameret = 100;
 
         int elhagyas = 12;
         int koz = 3;
@@ -56,6 +56,47 @@ namespace Quarto
         private Image kepLetrehoz(string szam)
         {
             List<Image> kepek = new List<Image>();
+
+            
+
+            /*if (szam[0] == '0')
+            {
+                kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
+            }
+            else {
+                kepek.Add(Image.FromFile("img/fehér kör négyzet lyukkal.png"));
+            }
+
+            
+
+            if (szam[1] == '0')
+            {
+                kepek.Add(Image.FromFile("img/kis fekete négyzet kör lyukkal.png"));
+            }
+            else
+            {
+                kepek.Add(Image.FromFile("img/kis fehér négyzet kör lyukkal.png"));
+            }
+
+            if (szam[3] == '0')
+            {
+                kepek.Add(Image.FromFile("img/kis fekete kör.png"));
+            }
+            else
+            {
+                kepek.Add(Image.FromFile("img/kis fehér kör.png"));
+            }
+
+            if (szam[2] == '0')
+            {
+                kepek.Add(Image.FromFile("img/__0_.png"));
+            }
+            else
+            {
+                kepek.Add(Image.FromFile("img/__1_.png"));
+            }*/
+            
+
             if (szam[0] == '0') //fekete
             {
                 if (szam[1] == '0')//fekete négyzet
@@ -90,6 +131,7 @@ namespace Quarto
                         else
                         {
                             kepek.Add(Image.FromFile("img/1___.png"));
+                            kepek.Add(Image.FromFile("img/_0__.png"));
                         }
                     }
                     else//1
@@ -100,8 +142,7 @@ namespace Quarto
                         }
                         else//1
                         {
-                            kepek.Add(Image.FromFile("img/__1_.png"));
-                            kepek.Add(Image.FromFile("img/_1__.png"));
+                            kepek.Add(Image.FromFile("img/fehér kör négyzet lyukkal.png"));
                         }
 
                     }
@@ -141,6 +182,8 @@ namespace Quarto
                         else
                         {
                             kepek.Add(Image.FromFile("img/0___.png"));
+                            kepek.Add(Image.FromFile("img/_1__.png"));
+
                         }
                     }
                     else
@@ -151,8 +194,7 @@ namespace Quarto
                         }
                         else//1
                         {
-                            kepek.Add(Image.FromFile("img/__0_.png"));
-                            kepek.Add(Image.FromFile("img/_0__.png"));
+                            kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
                         }
                     }
                 }

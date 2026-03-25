@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\adolfaron\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OneDrive - Bajai SZC Türr István Technikum\\Órák\\IKT\\Quarto\\Quarto\\Quarto.csproj",
+      "projectUniqueName": "C:\\Users\\adolfaron\\Source\\Repos\\Quarto\\Quarto\\Quarto.csproj",
       "projectName": "Quarto",
-      "projectPath": "D:\\OneDrive - Bajai SZC Türr István Technikum\\Órák\\IKT\\Quarto\\Quarto\\Quarto.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\OneDrive - Bajai SZC Türr István Technikum\\Órák\\IKT\\Quarto\\Quarto\\obj\\",
+      "projectPath": "C:\\Users\\adolfaron\\Source\\Repos\\Quarto\\Quarto\\Quarto.csproj",
+      "packagesPath": "C:\\Users\\adolfaron\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\adolfaron\\Source\\Repos\\Quarto\\Quarto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\adolfaron\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -45,8 +46,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -70,7 +70,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
