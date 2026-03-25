@@ -18,6 +18,7 @@ namespace Quarto
 
         int elhagyas = 12;
         int koz = 3;
+        Image utolsoKep;
         public Babuk()
         {
             InitializeComponent();
@@ -44,12 +45,12 @@ namespace Quarto
 
             this.ClientSize = new Size(cellameret * 4 + koz * 3 + elhagyas + 10,
                                         cellameret * 4 + koz * 3 + elhagyas + 10);
-            Jatekter ablak = new Jatekter(this);
-            ablak.FormClosed += (s, e) =>
+                Jatekter = new Jatekter(this);
+            Jatekter.FormClosed += (s, e) =>
             {
                 Application.Exit();
             };
-            ablak.Show();
+            Jatekter.Show();
 
         }
 
@@ -240,8 +241,17 @@ namespace Quarto
 
         private void cekkaKatt(object sender, EventArgs e)
         {
+            if (utolsoKep != null) return;
             PictureBox kattintott = sender as PictureBox;
-            MessageBox.Show(kattintott.Tag.ToString().Split('_')[3]);
+            //MessageBox.Show(kattintott.Tag.ToString().Split('_')[3]);
+            int sor = Convert.ToInt32( kattintott.Tag.ToString().Split('_')[0]);
+            int oszl = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[1]);
+            //Jatekter.kivalaszt(kattintott);
+            Jatekter.valasztott = new PictureBox();
+            Jatekter.valasztott.Image = (Image)kattintott.Image.Clone();
+            Jatekter.valasztott.Tag = kattintott.Tag;
+            utolsoKep = kattintott.Image;
+            cellak[sor, oszl].Image = kepOsszeRak([utolsoKep, Image.FromFile("img/kijelol.png")]);
 
         }
 
