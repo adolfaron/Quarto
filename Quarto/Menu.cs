@@ -13,9 +13,14 @@ namespace Quarto
         Label jatekos2LBL = new Label();
         Button utasitsKiBe = new Button();
         bool utasitasMegj = true;
-        public utasitasok utasitasok;
+
+        public utasitasok utasitasok { get; set; }
+        public Babuk Babuk { get; set; }
+
         public string jatekos1nev;
         public string jatekos2nev;
+
+        
 
         public Menu()
         {
@@ -114,10 +119,21 @@ namespace Quarto
             if (jatekosNev1.Text == jatekosNev2.Text) return;
             jatekos1nev = jatekosNev1.Text;
             jatekos2nev = jatekosNev2.Text;
-            Babuk Babuk = new Babuk(this, utasitasok);
+            Babuk = new Babuk();
             Babuk.FormClosed += (s, e) => { Application.Exit(); };
             this.Hide();
             Babuk.Show();
+        }
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (keyData == Keys.Enter)
+            {
+                startBTN_Click(this, EventArgs.Empty);
+                return true;
+            }
+
+            return base.ProcessCmdKey(ref msg, keyData);
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Quarto
 {
     public partial class Babuk : Form
     {
-        Jatekter Jatekter;
+        Jatekter Jatekter { get; set; }
         public PictureBox[,] cellak;
         public int cellameret = 100;
 
@@ -26,13 +26,15 @@ namespace Quarto
 
         public int kiJon;
 
-        Menu Menu;
+        Menu Menu = Program.Menu;
         utasitasok utasitasok;
-        public Babuk(Menu ujmenu, utasitasok ujutasitasok)
+        //public Babuk(Menu ujmenu, utasitasok ujutasitasok)
+        public Babuk()
         {
             InitializeComponent();
-            utasitasok = ujutasitasok;
-            Menu = ujmenu;
+            utasitasok = Menu.utasitasok;
+            //utasitasok = ujutasitasok;
+            //Menu = ujmenu;
             cellak = new PictureBox[4, 4];
             for (int sor = 0; sor < 4; sor++)
             {
@@ -53,7 +55,7 @@ namespace Quarto
             //this.Width = utolso.X + cellameret + elhagyas * 2;
             //this.Height = utolso.Y + cellameret + elhagyas * 2+34;
             meretez();
-            Jatekter = new Jatekter(this, Menu, utasitasok);
+            Jatekter = new Jatekter();
             Jatekter.FormClosed += (s, e) =>
             {
                 Application.Exit();

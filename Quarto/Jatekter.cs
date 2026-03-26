@@ -24,14 +24,21 @@ namespace Quarto
         utasitasok utasitasok;
 
         public PictureBox valasztott;
-        public Jatekter(Babuk ujbabuk, Menu ujmenu, utasitasok ujutasitasok)
+        //public Jatekter(Babuk ujbabuk, Menu ujmenu, utasitasok ujutasitasok)
+        public Jatekter()
         {
-            Babuk = ujbabuk;
-            Menu = ujmenu;
-            utasitasok = ujutasitasok;
+            //Babuk = ujbabuk;
+            //Menu = ujmenu;
+            //utasitasok = ujutasitasok;
+
+
+            Menu = Program.Menu;
+            Babuk = Program.Menu.Babuk;
+            utasitasok = Menu.utasitasok;
 
             InitializeComponent();
 
+            //Babuk = Program.Menu.Babuk;
             cellak = new PictureBox[4, 4];
             for (int sor = 0; sor < 4; sor++)
             {
@@ -49,11 +56,13 @@ namespace Quarto
                 }
             }
             meretez();
+            //Babuk = Program.Menu.Babuk; //itt adom meg neki utoljára
         }
         private void cekkaKatt(object sender, EventArgs e)
         {
+            Babuk = Program.Menu.Babuk;
             PictureBox kattintott = sender as PictureBox;
-            if (kattintott.Image != null || Babuk.utolsoKep == null) return;
+            if (kattintott.Image != null || Babuk.utolsoKep == null) return;//és itt hibát dob, hogy null
             utasitasok.kiir.Text = (Babuk.kiJon == 0 ? Menu.jatekos1nev : Menu.jatekos2nev) + " válasszon egy bábut!";
             Babuk.kiJon = (Babuk.kiJon == 0 ? 1 : 0);
             int sor = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[0]);
@@ -162,5 +171,6 @@ namespace Quarto
                 cellameret * 4 + koz * 3 + elhagyas + 10
             );
         }
+
     }
 }
