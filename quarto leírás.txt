@@ -1,16 +1,16 @@
-játékosok neve beadható
-2 db játékos
+-játékosok neve beadható
+-2 db játékos
 -4*4 pálya
 -16 külömböző bábu (meg van)
 -minden bábunak pontosan 4 tulajdonság
 -képként a figurák (meg van)
 -egyértelműen azosítható tulajdonságok
 -pálya mellett megjeleníteni a 16 bábut
-program beszédes (felszólít, utasít, vegyél fel egy bábut)
+-program beszédes (felszólít, utasít, vegyél fel egy bábut)
 -utólag nem mozgatható
-az a játékos nyer akinek sikerül egy sorba (vizszintes függőleges, átló) azonos tulajdonságú figurákat lerakni (4db)
+-az a játékos nyer akinek sikerül egy sorba (vizszintes függőleges, átló) azonos tulajdonságú figurákat lerakni (4db)
 -győzelem ellenőrzés, döntetlenellenőrzés
-kezdés véletlen
+-kezdés véletlen
 játék indítása előtt játékszabályok ismertetése
 dokumentációk
 határidő április 21

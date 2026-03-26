@@ -20,11 +20,16 @@ namespace Quarto
         int koz = 3;
 
         Babuk Babuk;
+        Menu Menu;
+        utasitasok utasitasok;
 
         public PictureBox valasztott;
-        public Jatekter(Babuk ujbabuk)
+        public Jatekter(Babuk ujbabuk, Menu ujmenu, utasitasok ujutasitasok)
         {
             Babuk = ujbabuk;
+            Menu = ujmenu;
+            utasitasok = ujutasitasok;
+
             InitializeComponent();
 
             cellak = new PictureBox[4, 4];
@@ -43,13 +48,14 @@ namespace Quarto
                     cella.Tag = $"{sor}_{oszlop}_0_0000";
                 }
             }
-            this.ClientSize = new Size( cellameret * 4 + koz * 3 + elhagyas + 10,
-                                        cellameret * 4 + koz * 3 + elhagyas + 10);
+            meretez();
         }
         private void cekkaKatt(object sender, EventArgs e)
         {
             PictureBox kattintott = sender as PictureBox;
             if (kattintott.Image != null || Babuk.utolsoKep == null) return;
+            utasitasok.kiir.Text = (Babuk.kiJon == 0 ? Menu.jatekos1nev : Menu.jatekos2nev) + " válasszon egy bábut!";
+            Babuk.kiJon = (Babuk.kiJon == 0 ? 1 : 0);
             int sor = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[0]);
             int oszl = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[1]);
 
@@ -57,7 +63,7 @@ namespace Quarto
             cellak[sor, oszl].Tag = valasztott.Tag;
             Babuk.cellak[Babuk.utolsoHely.X, Babuk.utolsoHely.Y].Image = null;
             Babuk.utolsoKep = null;
-            for (int s = 0; s  < 4; s ++)
+            for (int s = 0; s < 4; s++)
             {
                 for (int i = 0; i < 4; i++)
                 {
@@ -66,11 +72,11 @@ namespace Quarto
                         cellak[s, 2].Tag.ToString().Split('_')[2] == "1" &&
                         cellak[s, 3].Tag.ToString().Split('_')[2] == "1" &&
 
-                        cellak[s, 0].Tag.ToString().Split('_')[3][i] == cellak[s, 1].Tag.ToString().Split('_')[3][i] && 
+                        cellak[s, 0].Tag.ToString().Split('_')[3][i] == cellak[s, 1].Tag.ToString().Split('_')[3][i] &&
                         cellak[s, 1].Tag.ToString().Split('_')[3][i] == cellak[s, 2].Tag.ToString().Split('_')[3][i] &&
                         cellak[s, 2].Tag.ToString().Split('_')[3][i] == cellak[s, 3].Tag.ToString().Split('_')[3][i])
                     {
-                        MessageBox.Show("Kijött!");
+                        MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev)+ " nyert!");
                         return;
                     }
                 }
@@ -88,7 +94,8 @@ namespace Quarto
                         cellak[1, o].Tag.ToString().Split('_')[3][i] == cellak[2, o].Tag.ToString().Split('_')[3][i] &&
                         cellak[2, o].Tag.ToString().Split('_')[3][i] == cellak[3, o].Tag.ToString().Split('_')[3][i])
                     {
-                        MessageBox.Show("Kijött!");return;
+                        MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev) + " nyert!");
+                        return;
                     }
                 }
             }
@@ -103,7 +110,8 @@ namespace Quarto
                         cellak[1, 1].Tag.ToString().Split('_')[3][i] == cellak[2, 2].Tag.ToString().Split('_')[3][i] &&
                         cellak[2, 2].Tag.ToString().Split('_')[3][i] == cellak[3, 3].Tag.ToString().Split('_')[3][i])
                 {
-                    MessageBox.Show("Kijött!"); return;
+                    MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev) + " nyert!"); 
+                    return;
                 }
             }
             for (int i = 0; i < 4; i++)
@@ -117,7 +125,8 @@ namespace Quarto
                         cellak[1, 2].Tag.ToString().Split('_')[3][i] == cellak[2, 1].Tag.ToString().Split('_')[3][i] &&
                         cellak[2, 1].Tag.ToString().Split('_')[3][i] == cellak[3, 0].Tag.ToString().Split('_')[3][i])
                 {
-                    MessageBox.Show("Kijött!"); return;
+                    MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev) + " nyert!"); 
+                    return;
                 }
             }
             for (int s = 0; s < 4; s++)
@@ -127,9 +136,31 @@ namespace Quarto
                     if (cellak[s, o].Tag.ToString().Split('_')[2] == "0") return;
                 }
             }
-            MessageBox.Show("döntetlen");
+            MessageBox.Show("Döntetlen!");
         }
 
-        
+        private void Jatekter_Resize(object sender, EventArgs e)
+        {
+            meretez();
+        }
+
+        private void meretez()
+        {
+            cellameret = (this.ClientSize.Width - elhagyas * 2 - koz * 3) / 4;
+            for (int sor = 0; sor < 4; sor++)
+            {
+                for (int oszlop = 0; oszlop < 4; oszlop++)
+                {
+                    PictureBox cella = cellak[sor, oszlop];
+                    cella.Size = new Size(cellameret, cellameret);
+                    cella.BackColor = Color.LightGray;
+                    cella.Location = new Point(oszlop * (cella.Size.Width + koz) + elhagyas, sor * (cella.Size.Height + koz) + elhagyas);
+                }
+            }
+            this.ClientSize = new Size(
+                this.ClientSize.Width,
+                cellameret * 4 + koz * 3 + elhagyas + 10
+            );
+        }
     }
 }

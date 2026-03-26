@@ -57,7 +57,7 @@ namespace Quarto
 
             utasitsKiBe.Location = new Point(98, 49);
             utasitsKiBe.Name = "utasitsKiBe";
-            utasitsKiBe.Size = new Size(120, 23);
+            utasitsKiBe.Size = new Size(120, 35);
             utasitsKiBe.TabIndex = 0;
             utasitsKiBe.Text = "Utasítások ki/be";
             utasitsKiBe.UseVisualStyleBackColor = true;
@@ -114,7 +114,7 @@ namespace Quarto
             if (jatekosNev1.Text == jatekosNev2.Text) return;
             jatekos1nev = jatekosNev1.Text;
             jatekos2nev = jatekosNev2.Text;
-            Babuk Babuk = new Babuk();
+            Babuk Babuk = new Babuk(this, utasitasok);
             Babuk.FormClosed += (s, e) => { Application.Exit(); };
             this.Hide();
             Babuk.Show();

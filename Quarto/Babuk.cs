@@ -20,11 +20,19 @@ namespace Quarto
         int koz = 3;
         public Image utolsoKep;
         public Point utolsoHely;
-        Image kijottKep = Image.FromFile("img/kijelol.png");        
-        public Babuk()
+        Image kijottKep = Image.FromFile("img/kijelol.png");
+
+        Random rnd = new Random();
+
+        public int kiJon;
+
+        Menu Menu;
+        utasitasok utasitasok;
+        public Babuk(Menu ujmenu, utasitasok ujutasitasok)
         {
             InitializeComponent();
-
+            utasitasok = ujutasitasok;
+            Menu = ujmenu;
             cellak = new PictureBox[4, 4];
             for (int sor = 0; sor < 4; sor++)
             {
@@ -39,29 +47,27 @@ namespace Quarto
                     cella.Click += new(cekkaKatt);
                     cella.SizeMode = PictureBoxSizeMode.StretchImage;
                     cella.Image = kepLetrehoz(Convert.ToString(oszlop * 4 + sor, 2).PadLeft(4, '0'));
-                    cella.Tag = $"{sor}_{oszlop}_1_"+ Convert.ToString(oszlop * 4 + sor, 2).PadLeft(4, '0');
+                    cella.Tag = $"{sor}_{oszlop}_1_" + Convert.ToString(oszlop * 4 + sor, 2).PadLeft(4, '0');
                 }
             }
             //this.Width = utolso.X + cellameret + elhagyas * 2;
             //this.Height = utolso.Y + cellameret + elhagyas * 2+34;
-
-            this.ClientSize = new Size(cellameret * 4 + koz * 3 + elhagyas + 10,
-                                        cellameret * 4 + koz * 3 + elhagyas + 10);
-            Jatekter = new Jatekter(this);
+            meretez();
+            Jatekter = new Jatekter(this, Menu, utasitasok);
             Jatekter.FormClosed += (s, e) =>
             {
                 Application.Exit();
             };
             Jatekter.Show();
+            kiJon = rnd.Next(2);
+            utasitasok.kiir.Text = (kiJon == 0? Menu.jatekos1nev : Menu.jatekos2nev) + " válasszon egy bábut!";
+            kiJon = (kiJon == 0 ? 1 : 0);
 
         }
 
         private Image kepLetrehoz(string szam)
         {
             List<Image> kepek = new List<Image>();
-
-            
-
             /*if (szam[0] == '0')
             {
                 kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
@@ -98,7 +104,7 @@ namespace Quarto
             {
                 kepek.Add(Image.FromFile("img/__1_.png"));
             }*/
-            
+
 
             if (szam[0] == '0') //fekete
             {
@@ -246,16 +252,16 @@ namespace Quarto
             PictureBox kattintott = sender as PictureBox;
             if (utolsoKep != null || kattintott.Image == null) return;
             //MessageBox.Show(kattintott.Tag.ToString().Split('_')[3]);
-            int sor = Convert.ToInt32( kattintott.Tag.ToString().Split('_')[0]);
+            int sor = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[0]);
             int oszl = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[1]);
             //Jatekter.kivalaszt(kattintott);
             Jatekter.valasztott = new PictureBox();
             Jatekter.valasztott.Image = (Image)kattintott.Image.Clone();
             Jatekter.valasztott.Tag = kattintott.Tag;
             utolsoKep = kattintott.Image;
-            utolsoHely = new Point( sor, oszl);
+            utolsoHely = new Point(sor, oszl);
             cellak[sor, oszl].Image = kepOsszeRak([utolsoKep, kijottKep]);
-
+            utasitasok.kiir.Text = (kiJon == 0 ? Menu.jatekos1nev : Menu.jatekos2nev) + " rakja le valahova a választott bábut!";
         }
 
         private Image kepOsszeRak(params Image[] images) //ChatGPT
@@ -288,6 +294,29 @@ namespace Quarto
              */
         }
 
+        private void meretez()
+        {
+            cellameret = (this.ClientSize.Width - elhagyas * 2 - koz * 3) / 4;
+            for (int sor = 0; sor < 4; sor++)
+            {
+                for (int oszlop = 0; oszlop < 4; oszlop++)
+                {
+                    PictureBox cella = cellak[sor, oszlop];
+                    cella.Size = new Size(cellameret, cellameret);
+                    cella.BackColor = Color.LightGray;
+                    cella.Location = new Point(oszlop * (cella.Size.Width + koz) + elhagyas, sor * (cella.Size.Height + koz) + elhagyas);
+                }
+            }
+            this.ClientSize = new Size(
+                this.ClientSize.Width,
+                cellameret * 4 + koz * 3 + elhagyas + 10
+            );
+        }
+
+        private void Babuk_Resize(object sender, EventArgs e)
+        {
+            meretez();
+        }
     }
 }
 
