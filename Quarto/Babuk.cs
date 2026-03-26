@@ -47,7 +47,7 @@ namespace Quarto
 
             this.ClientSize = new Size(cellameret * 4 + koz * 3 + elhagyas + 10,
                                         cellameret * 4 + koz * 3 + elhagyas + 10);
-                Jatekter = new Jatekter(this);
+            Jatekter = new Jatekter(this);
             Jatekter.FormClosed += (s, e) =>
             {
                 Application.Exit();

@@ -57,7 +57,6 @@ namespace Quarto
             cellak[sor, oszl].Tag = valasztott.Tag;
             Babuk.cellak[Babuk.utolsoHely.X, Babuk.utolsoHely.Y].Image = null;
             Babuk.utolsoKep = null;
-
             for (int s = 0; s  < 4; s ++)
             {
                 for (int i = 0; i < 4; i++)
@@ -121,6 +120,14 @@ namespace Quarto
                     MessageBox.Show("Kijött!"); return;
                 }
             }
+            for (int s = 0; s < 4; s++)
+            {
+                for (int o = 0; o < 4; o++)
+                {
+                    if (cellak[s, o].Tag.ToString().Split('_')[2] == "0") return;
+                }
+            }
+            MessageBox.Show("döntetlen");
         }
 
         
