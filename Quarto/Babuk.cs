@@ -20,7 +20,7 @@ namespace Quarto
         int koz = 3;
         public Image utolsoKep;
         public Point utolsoHely;
-        Image kijottKep = Image.FromFile("img/kijelol.png");
+        Image kijottKep = Image.FromFile("img/kijelol.png");        
         public Babuk()
         {
             InitializeComponent();

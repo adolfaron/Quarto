@@ -1,6 +1,6 @@
 ﻿namespace Quarto
 {
-    partial class Menu
+        public partial class Menu
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,10 @@
         {
             
             SuspendLayout();
-           
+            // 
+            // button1
+            // 
+            
             // 
             // Menu
             // 
@@ -42,9 +45,10 @@
             Text = "Menu";
             Resize += meretez;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
+
+        
     }
 }

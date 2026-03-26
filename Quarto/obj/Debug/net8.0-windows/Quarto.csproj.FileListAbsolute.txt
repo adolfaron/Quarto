@@ -35,3 +35,4 @@ D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Deb
 D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll
 C:\Users\adolfaron\Source\Repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.sourcelink.json
 C:\Users\adolfaron\Source\Repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Menu.resources
+C:\Users\adolfaron\Source\Repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.utasitasok.resources
