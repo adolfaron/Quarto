@@ -23,6 +23,8 @@ namespace Quarto
         Menu Menu;
         utasitasok utasitasok;
 
+        Color kijelolSzin = Color.Blue;
+
         public PictureBox valasztott;
         //public Jatekter(Babuk ujbabuk, Menu ujmenu, utasitasok ujutasitasok)
         public Jatekter()
@@ -85,6 +87,10 @@ namespace Quarto
                         cellak[s, 1].Tag.ToString().Split('_')[3][i] == cellak[s, 2].Tag.ToString().Split('_')[3][i] &&
                         cellak[s, 2].Tag.ToString().Split('_')[3][i] == cellak[s, 3].Tag.ToString().Split('_')[3][i])
                     {
+                        cellak[s, 0].BackColor = kijelolSzin;
+                        cellak[s, 1].BackColor = kijelolSzin;
+                        cellak[s, 2].BackColor = kijelolSzin;
+                        cellak[s, 3].BackColor = kijelolSzin;
                         MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev)+ " nyert!");
                         return;
                     }
@@ -103,6 +109,10 @@ namespace Quarto
                         cellak[1, o].Tag.ToString().Split('_')[3][i] == cellak[2, o].Tag.ToString().Split('_')[3][i] &&
                         cellak[2, o].Tag.ToString().Split('_')[3][i] == cellak[3, o].Tag.ToString().Split('_')[3][i])
                     {
+                        cellak[0, o].BackColor = kijelolSzin;
+                        cellak[1, o].BackColor = kijelolSzin;
+                        cellak[2, o].BackColor = kijelolSzin;
+                        cellak[3, o].BackColor = kijelolSzin;
                         MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev) + " nyert!");
                         return;
                     }
@@ -119,6 +129,10 @@ namespace Quarto
                         cellak[1, 1].Tag.ToString().Split('_')[3][i] == cellak[2, 2].Tag.ToString().Split('_')[3][i] &&
                         cellak[2, 2].Tag.ToString().Split('_')[3][i] == cellak[3, 3].Tag.ToString().Split('_')[3][i])
                 {
+                    cellak[0, 0].BackColor = kijelolSzin;
+                    cellak[1, 1].BackColor = kijelolSzin;
+                    cellak[2, 2].BackColor = kijelolSzin;
+                    cellak[3, 3].BackColor = kijelolSzin;
                     MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev) + " nyert!"); 
                     return;
                 }
@@ -134,6 +148,10 @@ namespace Quarto
                         cellak[1, 2].Tag.ToString().Split('_')[3][i] == cellak[2, 1].Tag.ToString().Split('_')[3][i] &&
                         cellak[2, 1].Tag.ToString().Split('_')[3][i] == cellak[3, 0].Tag.ToString().Split('_')[3][i])
                 {
+                    cellak[0, 3].BackColor = kijelolSzin;
+                    cellak[1, 2].BackColor = kijelolSzin;
+                    cellak[2, 1].BackColor = kijelolSzin;
+                    cellak[3, 0].BackColor = kijelolSzin;
                     MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev) + " nyert!"); 
                     return;
                 }
@@ -155,6 +173,7 @@ namespace Quarto
 
         private void meretez()
         {
+            if (cellak == null) return;
             cellameret = (this.ClientSize.Width - elhagyas * 2 - koz * 3) / 4;
             for (int sor = 0; sor < 4; sor++)
             {

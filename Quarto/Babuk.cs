@@ -119,14 +119,16 @@ namespace Quarto
                         kepek.Add(Image.FromFile("img/_1__.png"));
                         if (szam[3] == '0')//kitöltés kör
                         {
-                            kepek.Add(Image.FromFile("img/0___.png"));
+                            kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fekete négyzet kör lyukkal.png"));
                         }
                     }
                     else
                     {
                         if (szam[3] == '0')//kitöltés kör
                         {
-                            kepek.Add(Image.FromFile("img/0___.png"));
+                            kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fekete négyzet kör lyukkal.png"));
                         }
                     }
                 }
@@ -137,11 +139,13 @@ namespace Quarto
                         kepek.Add(Image.FromFile("img/_1__.png"));
                         if (szam[3] == '0')//kitöltés kör
                         {
-                            kepek.Add(Image.FromFile("img/0___.png"));
+                            kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fekete négyzet kör lyukkal.png"));
                         }
                         else
                         {
-                            kepek.Add(Image.FromFile("img/0___.png"));
+                            kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fekete négyzet kör lyukkal.png"));
                             kepek.Add(Image.FromFile("img/_1__.png"));
                         }
                     }
@@ -149,7 +153,8 @@ namespace Quarto
                     {
                         if (szam[3] == '0')//kitöltés kör
                         {
-                            kepek.Add(Image.FromFile("img/0___.png"));
+                            kepek.Add(Image.FromFile("img/fekete kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fekete négyzet kör lyukkal.png"));
                         }
                         else//1
                         {
@@ -170,14 +175,16 @@ namespace Quarto
                         kepek.Add(Image.FromFile("img/_0__.png"));
                         if (szam[3] == '0')//kitöltés kör
                         {
-                            kepek.Add(Image.FromFile("img/1___.png"));
+                            kepek.Add(Image.FromFile("img/fehér kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fehér négyzet kör lyukkal.png"));
                         }
                     }
                     else
                     {
                         if (szam[3] == '0')//kitöltés kör
                         {
-                            kepek.Add(Image.FromFile("img/1___.png"));
+                            kepek.Add(Image.FromFile("img/fehér kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fehér négyzet kör lyukkal.png"));
                         }
                     }
                 }
@@ -188,11 +195,13 @@ namespace Quarto
                         kepek.Add(Image.FromFile("img/_0__.png"));
                         if (szam[3] == '0')//kitöltés kör
                         {
-                            kepek.Add(Image.FromFile("img/1___.png"));
+                            kepek.Add(Image.FromFile("img/fehér kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fehér négyzet kör lyukkal.png"));
                         }
                         else
                         {
-                            kepek.Add(Image.FromFile("img/1___.png"));
+                            kepek.Add(Image.FromFile("img/fehér kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fehér négyzet kör lyukkal.png"));
                             kepek.Add(Image.FromFile("img/_0__.png"));
 
                         }
@@ -201,7 +210,8 @@ namespace Quarto
                     {
                         if (szam[3] == '0')//kitöltés kör
                         {
-                            kepek.Add(Image.FromFile("img/1___.png"));
+                            kepek.Add(Image.FromFile("img/fehér kör négyzet lyukkal.png"));
+                            kepek.Add(Image.FromFile("img/kis fehér négyzet kör lyukkal.png"));
                         }
                         else//1
                         {
@@ -298,6 +308,7 @@ namespace Quarto
 
         private void meretez()
         {
+            if (cellak == null) return;
             cellameret = (this.ClientSize.Width - elhagyas * 2 - koz * 3) / 4;
             for (int sor = 0; sor < 4; sor++)
             {
