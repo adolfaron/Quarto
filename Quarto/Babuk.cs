@@ -261,6 +261,7 @@ namespace Quarto
 
         private void cekkaKatt(object sender, EventArgs e)
         {
+            if (Jatekter.nyert) return;
             PictureBox kattintott = sender as PictureBox;
             if (utolsoKep != null || kattintott.Image == null) return;
             //MessageBox.Show(kattintott.Tag.ToString().Split('_')[3]);

@@ -25,6 +25,8 @@ namespace Quarto
 
         Color kijelolSzin = Color.Blue;
 
+        public bool nyert;
+
         public PictureBox valasztott;
         //public Jatekter(Babuk ujbabuk, Menu ujmenu, utasitasok ujutasitasok)
         public Jatekter()
@@ -58,13 +60,14 @@ namespace Quarto
                 }
             }
             meretez();
-            //Babuk = Program.Menu.Babuk; //itt adom meg neki utoljára
+            //Babuk = Program.Menu.Babuk;
         }
         private void cekkaKatt(object sender, EventArgs e)
         {
+            if (nyert) return;
             Babuk = Program.Menu.Babuk;
             PictureBox kattintott = sender as PictureBox;
-            if (kattintott.Image != null || Babuk.utolsoKep == null) return;//és itt hibát dob, hogy null
+            if (kattintott.Image != null || Babuk.utolsoKep == null) return;
             utasitasok.kiir.Text = (Babuk.kiJon == 0 ? Menu.jatekos1nev : Menu.jatekos2nev) + " válasszon egy bábut!";
             Babuk.kiJon = (Babuk.kiJon == 0 ? 1 : 0);
             int sor = Convert.ToInt32(kattintott.Tag.ToString().Split('_')[0]);
@@ -91,6 +94,7 @@ namespace Quarto
                         cellak[s, 1].BackColor = kijelolSzin;
                         cellak[s, 2].BackColor = kijelolSzin;
                         cellak[s, 3].BackColor = kijelolSzin;
+                        nyert = true;
                         MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev)+ " nyert!");
                         return;
                     }
@@ -113,6 +117,7 @@ namespace Quarto
                         cellak[1, o].BackColor = kijelolSzin;
                         cellak[2, o].BackColor = kijelolSzin;
                         cellak[3, o].BackColor = kijelolSzin;
+                        nyert = true;
                         MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev) + " nyert!");
                         return;
                     }
@@ -133,6 +138,7 @@ namespace Quarto
                     cellak[1, 1].BackColor = kijelolSzin;
                     cellak[2, 2].BackColor = kijelolSzin;
                     cellak[3, 3].BackColor = kijelolSzin;
+                    nyert = true;
                     MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev) + " nyert!"); 
                     return;
                 }
@@ -152,6 +158,7 @@ namespace Quarto
                     cellak[1, 2].BackColor = kijelolSzin;
                     cellak[2, 1].BackColor = kijelolSzin;
                     cellak[3, 0].BackColor = kijelolSzin;
+                    nyert = true;
                     MessageBox.Show((Babuk.kiJon == 1 ? Menu.jatekos1nev : Menu.jatekos2nev) + " nyert!"); 
                     return;
                 }
