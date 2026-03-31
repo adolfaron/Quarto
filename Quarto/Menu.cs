@@ -97,6 +97,7 @@ namespace Quarto
             if (jatekosNev1 == null) return;
             if (jatekosNev2 == null) return;
             if (jatekos1LBL == null) return;
+            if (utasitsKiBe == null) return;
 
             startBTN.Location = new Point(
                 (ClientSize.Width - startBTN.Width) / 2,
@@ -106,6 +107,7 @@ namespace Quarto
             jatekos1LBL.Location = new Point(jatekosNev1.Location.X-jatekos1LBL.Width, jatekosNev1.Location.Y+ 3);
             jatekosNev2.Location = new Point((ClientSize.Width - jatekosNev2.Width) / 2 + jatekos2LBL.Width / 2, jatekosNev1.Location.Y + jatekosNev1.Height + 10);
             jatekos2LBL.Location = new Point(jatekosNev2.Location.X - jatekos1LBL.Width, jatekosNev2.Location.Y + 3);
+            utasitsKiBe.Location = new Point((ClientSize.Width - utasitsKiBe.Width) / 4, 49);
         }
 
         private void meretez(object sender, EventArgs e)
