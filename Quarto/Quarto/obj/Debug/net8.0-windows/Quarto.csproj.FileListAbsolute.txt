@@ -1,0 +1,122 @@
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Babuk.resources
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Jatekter.resources
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.GenerateResource.cache
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfoInputs.cache
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfo.cs
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.CoreCompileInputs.cache
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.exe
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.deps.json
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.runtimeconfig.json
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.dll
+C:\Users\adolfaron\source\repos\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.pdb
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.dll
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\refint\Quarto.dll
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.pdb
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.genruntimeconfig.cache
+C:\Users\adolfaron\source\repos\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.exe
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.deps.json
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.runtimeconfig.json
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.pdb
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Babuk.resources
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Jatekter.resources
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.GenerateResource.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfoInputs.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfo.cs
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.CoreCompileInputs.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.sourcelink.json
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\refint\Quarto.dll
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.pdb
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.genruntimeconfig.cache
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll
+C:\Users\adolfaron\Source\Repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.sourcelink.json
+C:\Users\adolfaron\Source\Repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Menu.resources
+C:\Users\adolfaron\Source\Repos\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.utasitasok.resources
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Menu.resources
+D:\OneDrive - Bajai SZC Türr István Technikum\Órák\IKT\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.utasitasok.resources
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.exe
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.deps.json
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.runtimeconfig.json
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.dll
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.pdb
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Babuk.resources
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Jatekter.resources
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Menu.resources
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.utasitasok.resources
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.GenerateResource.cache
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfoInputs.cache
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfo.cs
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.CoreCompileInputs.cache
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.sourcelink.json
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.dll
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\refint\Quarto.dll
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.pdb
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.genruntimeconfig.cache
+C:\Users\Windows10\Desktop\Hub\2025-26\IKT\AA\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.exe
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.deps.json
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.runtimeconfig.json
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.dll
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.pdb
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Babuk.resources
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Jatekter.resources
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Menu.resources
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.utasitasok.resources
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.GenerateResource.cache
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfoInputs.cache
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfo.cs
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.sourcelink.json
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.dll
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\refint\Quarto.dll
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.pdb
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.genruntimeconfig.cache
+C:\Users\Admin\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.exe
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.deps.json
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.runtimeconfig.json
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.dll
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.pdb
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Babuk.resources
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Jatekter.resources
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Menu.resources
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.utasitasok.resources
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.GenerateResource.cache
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfoInputs.cache
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfo.cs
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.CoreCompileInputs.cache
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.sourcelink.json
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.dll
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\refint\Quarto.dll
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.pdb
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.genruntimeconfig.cache
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll
+C:\Users\adolfaron\Downloads\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Properties.Resources.resources
+D:\AÁ\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.exe
+D:\AÁ\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.deps.json
+D:\AÁ\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.runtimeconfig.json
+D:\AÁ\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.dll
+D:\AÁ\Quarto\Quarto\Quarto\bin\Debug\net8.0-windows\Quarto.pdb
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Babuk.resources
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Jatekter.resources
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Menu.resources
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.Properties.Resources.resources
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.utasitasok.resources
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.GenerateResource.cache
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.GeneratedMSBuildEditorConfig.editorconfig
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfoInputs.cache
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.AssemblyInfo.cs
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.csproj.CoreCompileInputs.cache
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.sourcelink.json
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.dll
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\refint\Quarto.dll
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.pdb
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\Quarto.genruntimeconfig.cache
+D:\AÁ\Quarto\Quarto\Quarto\obj\Debug\net8.0-windows\ref\Quarto.dll

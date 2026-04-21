@@ -1,0 +1,19 @@
+fekete/fehér alap 0
+négyzet/kör alap 1
+tömött/lyukas 2
+kör/négyzet lyuk 3
+
+0101 fehér kör - fekete kör fehér kis négyzet
+1101 fekete kör - fehér kör fekete kis négyzet
+0111 fehér négyzet
+1111 fekete négyzet
+
+
+
+
+0111 fehér négyzet kör lyukkal - fehér kör négyzet lyukkal
+1111 fekete négyzet kör lyukkal - fekete kör négyzet lyukkal
+
+
+0101 fehér kör fekete négyzettel
+1101 fekete kör fehér négyzettel
